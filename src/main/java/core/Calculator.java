@@ -1,4 +1,4 @@
-package core.HW_31;
+package core;
 
 public class Calculator {
     // add 3 double methods (2, 3, 4 params)

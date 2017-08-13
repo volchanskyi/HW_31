@@ -1,4 +1,4 @@
-package core.HW_31;
+package core;
 
 import static org.junit.Assert.assertEquals;
 
@@ -47,7 +47,7 @@ public class CalculatorTest {
     @Test(timeout = 1000)
     public void test_07_add_2() {
 	System.out.println("Test # 07: Add 2 params");
-	assertEquals("Not correct", Calculator.multiply(9.0, 5.0), 4.5, 0.09);
+	assertEquals("Not correct", Calculator.multiply(9.0, 5.0), 45.0, 0.09);
     }
 
     @Test(timeout = 1000)
